@@ -1,0 +1,22 @@
+.navbar {
+    background-color: $second-color;
+    font-family: "oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-brand img {
+    width: 70px;
+    height: 70px;
+    @include flex(0,center,0);
+}
+
+.navbar h1 {
+    @include fonts(poppins,10px,#ffffff);
+    margin-top: 5px;
+    @include flex(0,center,0);
+}
+
+.navbar a {
+    text-decoration: none;
+    @include fonts(oswald,30px,#ffffff);
+}

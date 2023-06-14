@@ -1,0 +1,40 @@
+.cards-productos {
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.cards-productos img {
+    @include flex(row, 0, 0);
+    width: 90%;
+    height: 300px;
+    margin: 5px;
+    @include flex(0, center, center);
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #756363b4;
+    border-style: inherit;
+}
+
+.cards-productos div {
+    @include flex(column, center, center);
+}
+
+.card {
+    width: 19rem;
+    @include flex(0, center, center);
+    margin: 25px 10px;
+}
+
+.card-body h2 {
+    @include fonts(poppins, 18px,#000000);
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}

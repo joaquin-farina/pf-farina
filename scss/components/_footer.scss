@@ -1,0 +1,26 @@
+footer {
+    background-color: $second-color;
+    width: 100%;
+    height: 100px;
+}
+
+.redes-sociales {
+    @include flex(0, center, center);
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.redes-sociales a i {
+    @include fonts(0,30px,#ffffff);
+    width: 100px;
+    height: 100px;
+}
+
+.disclaimer {
+    @include fonts(poppins, 15px, #ffffff);
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+    font-style: italic;
+}

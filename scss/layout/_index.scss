@@ -1,0 +1,41 @@
+.imgindex {
+    
+  margin-top: 25px;
+    height: 500px;
+    width: 100%;
+    background: $bg-img;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: $transition;
+    &:hover {
+        background: $bg-img-2;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+}
+
+.carousel img {
+
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.carousel-inner {
+    text-align: center;
+
+}
+
+.container h2 {
+    @include fonts(poppins, 30px, #ffffff);
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
