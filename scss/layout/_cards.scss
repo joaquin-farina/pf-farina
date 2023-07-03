@@ -17,7 +17,7 @@
     border-style: inherit;
 }
 
-.cards-productos div {
+.cards-productos {
     @include flex(0, center, center);
     text-align: center;
 }
