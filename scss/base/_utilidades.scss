@@ -5,8 +5,9 @@
     align-items: $align;
 }
 
-@mixin fonts($family,$size,$color){
+@mixin fonts($family,$size,$color,){
     font-family: $family;
     font-size: $size;
     color: $color;
 }
+

@@ -18,7 +18,8 @@
 }
 
 .cards-productos div {
-    @include flex(column, center, center);
+    @include flex(0, center, center);
+    text-align: center;
 }
 
 .card {
